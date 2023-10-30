@@ -12,3 +12,4 @@ for i in range(2,x+1):
         dp[i] = min(dp[i], dp[i//2]+1)
 
 print(dp[x])
+
